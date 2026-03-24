@@ -1,0 +1,33 @@
+/* màu nền  */
+body {
+    background-color: #5962e1;
+}
+.region{ background-color:#180edd; padding:20px; text-align:center;border-radius:6px;margin-bottom:15px;}
+.header {
+    padding:20px;
+    background-color:#180EDD;
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace ;}
+/* màu chữ */
+.header h1 {
+    color:#F36519;
+}
+.container .left h2 {
+    color:#000000;
+}
+
+.header p {
+    color: aliceblue;
+}
+.footer p {
+    color:#d3d4d7;
+}
+.container{display:flex;gap:15px;margin-bottom:15px;}
+.container p {
+    text-align: justify;
+}
+.left {flex:1;background-color:lightgray;padding:50px;text-align: center;border-left:8px;}
+.main {flex:2;background-color: lightgray;padding:40px;text-align: center;border-radius:8px;}
+.right {flex:1;background-color: lightgray;padding:50px;text-align: center; border-right: 8px;}
+.footer { background-color:#180EDD ; text-align: center; padding: 25px;  border-radius: 8px;}
+
